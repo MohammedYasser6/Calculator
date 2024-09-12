@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -136,3 +137,132 @@ body{
     cursor: pointer;
     scale: 102%;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-weight: 600;
+    font-size: small;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+h1{
+    color: rgb(203, 138, 84);
+    margin-bottom: 0;
+}
+.calculator-main__body{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 299px;
+    height: 500px;
+    background: linear-gradient(to bottom right, gray , rgb(38, 35, 35) 40%);
+    border-radius: 20px;
+    box-shadow: 0px 0px  50px 0 rgb(96, 94, 94);
+    color: rgb(255, 255, 255);
+    padding-bottom:12px ;
+    padding-top:   10px;
+    padding-right: 10px;
+}
+.calculator-screen{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    padding-top: 20px;
+    width: 245px;
+    height: 35px;
+    border-bottom:thin solid rgb(136, 127, 127) ;
+}
+.calculator-screen-two{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 0px;
+    width: 190px;
+    height: 30px;
+    border-top-width:200px;
+    border-top: thin solid rgb(203, 138, 84);
+
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    text-align: center;
+    place-items: center;
+    list-style: none;
+    margin-top: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    gap: 12px;
+
+    
+}
+
+li{
+    position: relative;
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    
+
+    
+}
+.signs{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(100, 96, 96, 0.777);
+    font-weight: 200;
+}
+.numbers{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: thin solid grey;
+    font-weight: 200;
+}
+.clear{
+    width: 112px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid thin rgb(235, 112, 35);
+    font-size: large;
+    font-weight: 200;
+
+}
+.equal{
+    background-color:rgb(235, 112, 35) ;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: white;
+
+}
+.clear:hover{
+    background-color:rgb(235, 112, 35) ;
+    cursor: pointer;
+    scale: 102%;
+}
+.equal:hover{
+    background-color: rgb(235, 112, 35);
+    scale: 102%;
+}   
+li:hover{
+    background-color: gray;
+    cursor: pointer;
+    scale: 102%;
+}
+>>>>>>> 2c59e7237fedb141ceca6b33ffddf29c9c2122f9
